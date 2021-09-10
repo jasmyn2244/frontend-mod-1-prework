@@ -24,42 +24,56 @@ console.log(animals[0]);
 
 // YOU DO: Write code below that will log the number of elements in array of
 // animals from above.
-
+console.log(animals.length);
 
 // YOU DO: Write code that will reassign the last item in the animals
 // array to "Gorilla"
+animals.pop()
+console.log(animals);
+animals.push("Gorilla")
+console.log(animals)
 
+//or animals[2] = "Gorilla"
 
 // YOU DO: Write code that will add a new animal (type of your choice) to position 3.
+animals.splice(3, 0, "Lion")
+console.log(animals);
 
+//or
+
+animals.push("Lion")
 
 // YOU DO: Write code that will log the String "Elephant" in the animals array
-
-
+console.log(animals[2]);
+//I'm not sure how to do this without commenting out my code that replaced elephant with gorilla. Elephant is no longer in the array???
 //-------------------
 // PART 2: Foods: Array Methods
 //-------------------
 
 // YOU DO: Declare a variable that will store an an array of at least 4 foods (strings)
-
+var foods = ["peaches", "cream", "kiwi", "yogurt"]
 
 // YOU DO: Write code below that will log the number of elements in the array of
 // foods from above.
-
+console.log(foods.length);
 
 // YOU DO: Write code below that uses a method to add "broccoli" to the foods array and
 // log the changed array to verify "broccoli" has been added
-
+foods.push("broccoli")
+console.log(foods);
 
 // YOU DO: Write code below that removes the last item of food from the foods array and
 // log the changed array to verify that item has been removed
-
-
-// YOU DO: Write code to add 3 new foods to the array. 
+foods.pop()
+console.log(foods);
+// YOU DO: Write code to add 3 new foods to the array.
   // There are several ways to do this - choose whichever you'd like!
 // Then, log the changed array to verify the new items have been added
-
+foods.push("Zuccini", "spinach", "celery")
+console.log(foods);
 // YOU DO: Remove the food that is in index position 0.
+foods.shift()
+console.log(foods);
 
 //-------------------
 // PART 3: Where are Arrays used?
@@ -79,12 +93,12 @@ The post itself likely has more complex data, but here's one way we can think ab
 var posts = ["image at beach", "holiday party", "adorable puppy", "video of cute baby"];
 
 // YOU DO: Think of a web application you commonly use. Where do you see LISTS utilized, where arrays
-// may be storing data? Come up with 3 examples - they could be from different web applications or 
+// may be storing data? Come up with 3 examples - they could be from different web applications or
 // all from the same one.
 
-// 1:
-// 2:
-// 3:
+// 1:var reservations = ["Miners Cabin", "Gold Nugget", "The Shack"]
+// 2:var departures = ["7:00am", "10:30am", "5:00pm"]
+// 3:var folders = ["junk", "spam", "primary"]
 
 
 //-------------------
@@ -96,7 +110,7 @@ YOU DO:
 Using the variables defined below, write a program that will tell a user if they
 will be able to call an Uber.
 
-The user can call an uber if they have 15% battery remaining, or more. In this case, it doesn't matter 
+The user can call an uber if they have 15% battery remaining, or more. In this case, it doesn't matter
 if the user has a charger at all, or what type.
 The can call an uber if they have a charger and it is a car charger.
 
@@ -106,7 +120,22 @@ var hasCharger = true;
 var chargerType = "car";
 
 // Write your conditional here
-
+/*
+if (percentBatteryLeft >= 15) {//This tell the computer to look at battery percent and decide if it's geater than 15
+  console.log("You may call an Uber");//If greater than 15, computer should print this string
+} else {//The other condition is that battery percentage is not greater than 15
+  console.log("You may not call an Uber");//In which case, the user will be informed they connot call an uber
+}
+*/
+//I couldnt understand the directions very well, but I think they may be asking for this:
+if (percentBatteryLeft >= 15) { //begins a condition station that user need 15% or more battery to call an uber
+  console.log("You may call an Uber"); //If user has adequate battery percentage, prints they have permission to call
+} else if (hasCharger == true && chargerType == "car") { //Adds a condition that if 15% batter is not realized, but they have a car charger, they can still call
+  console.log("You may call an Uber") //Prints message they can call an uber
+} else { //Otherwise, they have less than 15% and they don't have a car charger so they can't call an Uber
+  console.log("You may not call an Uber"); //Prints message
+}
+//Note to self: you forgot that you need a doubles equal sign when setting the conditions
 
 // YOU DO - ANNOTATE: Above each line of your code for this if statement, create a comment.
 // That comment should describe, in your own words, and as technically precise as possible,
