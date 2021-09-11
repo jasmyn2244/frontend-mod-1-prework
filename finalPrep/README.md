@@ -31,9 +31,9 @@ In Mod 0 you've learned about different techniques for managing your time at Tur
 
 When you are finished, add screenshots of your calendar so we can provide feedback if needed!
 
-- `![Screenshot](Screen Shot 2021-09-10 at 6.25.14 PM.png)`
-- `<img width="1234" alt="Screen Shot 2021-09-10 at 6 25 14 PM" src="https://user-images.githubusercontent.com/78129211/132930181-bb3c023f-3e11-43a0-b321-8dbcbc7996bb.png">`
-- `Add Week 3 Screenshot Here` Honestly, It's the same. I wouldn't change anything.
+ 
+<img width="1234" alt="Screen Shot 2021-09-10 at 6 25 14 PM" src="https://user-images.githubusercontent.com/78129211/132935020-f0988c54-39e9-4630-bf90-c51d544aac9b.png">
+- `Add Week 3 Screenshot Here` Honestly, I wouldn't change anything across weeks. At this point I don't know enough about the schedule to individualize the weeks. Currently, I'd keep everything the same week to week. 
 
 ### Mentorship Prep
 Mentorship is an integral part of the Turing experience and will help jumpstart your technical career. In order to get your mentor relationship started on the right foot, please complete the following deliverables:
