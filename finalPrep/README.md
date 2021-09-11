@@ -2,13 +2,13 @@
 Congrats on making it to the Mod 0 Final Prep! Complete the final exercises below and be sure to carefully follow the Pull Request steps to submit your work!
 
 ### Final Technical Prep
-You've learned a ton about some of the core foundations of Javascript! Show us how far you've come by completing the following exercises! You will be using your work from these exercises in your first day of Mod 1! 
+You've learned a ton about some of the core foundations of Javascript! Show us how far you've come by completing the following exercises! You will be using your work from these exercises in your first day of Mod 1!
 
 - [ ] Complete the [Mod Zero Hero Challenge](./modZeroHero.js)
-- [ ] Complete the [Annotation Challenge](./annotations.js) 
+- [ ] Complete the [Annotation Challenge](./annotations.js)
 
 ### Refactor Previous Work
-You've learned A LOT over the last few weeks as it relates to technical content - chances are, you probably have some code from your previous exercises that is either sloppy, incorrect, poorly named, etc. Before starting Mod 1, we want you to `refactor` your code - which is the process of adjusting or improving your code for readability and accuracy. 
+You've learned A LOT over the last few weeks as it relates to technical content - chances are, you probably have some code from your previous exercises that is either sloppy, incorrect, poorly named, etc. Before starting Mod 1, we want you to `refactor` your code - which is the process of adjusting or improving your code for readability and accuracy.
 
 Some things to consider as you refactor include...
 - Are my variable names easy to understand/convey the data type they are assigned to?
@@ -31,24 +31,24 @@ In Mod 0 you've learned about different techniques for managing your time at Tur
 
 When you are finished, add screenshots of your calendar so we can provide feedback if needed!
 
-- `Add Week 1 Screenshot Here`
-- `Add Week 2 Screenshot Here`
-- `Add Week 3 Screenshot Here`
+- `![Screenshot](Screen Shot 2021-09-10 at 6.25.14 PM.png)`
+- `<img width="1234" alt="Screen Shot 2021-09-10 at 6 25 14 PM" src="https://user-images.githubusercontent.com/78129211/132930181-bb3c023f-3e11-43a0-b321-8dbcbc7996bb.png">`
+- `Add Week 3 Screenshot Here` Honestly, It's the same. I wouldn't change anything.
 
 ### Mentorship Prep
 Mentorship is an integral part of the Turing experience and will help jumpstart your technical career. In order to get your mentor relationship started on the right foot, please complete the following deliverables:
 - [ ] Complete the [Mentorship DTR Prep](https://gist.github.com/ericweissman/51965bdcbf42970d43d817818bfaef3c)
-  - [ ] Add link to your gist here: 
+  - [ ] Add link to your gist here: [My Mentorship DTR](https://gist.github.com/jasmyn2244/31f4adbbf19f9b6118e77e048887c037.js)
 
 ### Lesson Prep
 You've learned a lot about how to take strong notes during Mod 0. Show us your skills while you learn how to pre-teach content for your first lesson in Mod 1!
 - [ ] Complete the [Pre Teaching Practice exercise](https://gist.github.com/ericweissman/0036e8fe272c02bd6d4bb14f42fd2f79) gist
-  - [ ] Add a link to your gist here:
+  - [ ] Add a link to your gist here:[My Gist](https://gist.github.com/jasmyn2244/cdaed1fb5ab309e80544d9f0ed75e63b.js)
 
 ### Group Work Prep
 As part of Turing's project-based learning approach, you will often be working in pairs or larger groups. In order to set yourself (and your team) up for success, it is important to ensure you are prepared to be an equitable contributor and teammate.
 - [ ] Complete the [DTR Guiding Questions](https://gist.github.com/ericweissman/c56f3a98cdce761808c21d498a52f5c6)
-  - [ ] Add a link to your gist here: 
+  - [ ] Add a link to your gist here: [DTR Questions](<script src="https://gist.github.com/jasmyn2244/e235074fd5bc5c2f61cc1445ba3c7ca9.js"></script>)
 
 ## All Done? How to Submit your M1 Prework
 When you have completed *ALL* the activities described above, follow the steps below to submit your technical prework.
@@ -87,4 +87,3 @@ What is your plan and how are you going to hold yourself to it? Specifically...
 
 ## Extensions
 Check out our thoughts on [extension activities](https://mod0.turing.io/prework/extensions) if you find yourself with some extra time before starting Mod 1!
-
